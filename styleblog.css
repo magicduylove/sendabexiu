@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    position: relative;
+}
+
+.logo_right {
+    float: right;
+}
+
+.sendalogo {
+    text-align: center;
+    top: 20%;
+}
+
+.logo_right a {
+    text-decoration: none;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+:root {
+    --bold: font-weight: 80px
+}
+
+.imagesection {
+    color: white;
+}
+
+.imagesection p strong {
+    color: blue;
+}
+
+.blogPost {
+    bottom: 0;
+    position: absolute;
+}
+
+.blogPostinfo p span {
+    font-weight: 800;
+}
+
+.imagesectionWrapper {
+    width: 80%;
+    margin: auto;
+    display: block;
+    height: 600px;
+    background-image: url(image/2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.blogPostinfo {
+    position: absolute;
+    bottom: 0;
+}
+
+.imagesectionWrapper h1 {
+    background-color: rgba(0, 0, 0, 90%);
+    background-size: cover;
+    width: 130%;
+    text-align: center;
+    opacity: 90%;
+    margin-left: -60px;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 90%);
+    background-size: cover;
+    position: relative;
+    width: 300px;
+    opacity: 90%;
+    margin-left: -40px;
+}
+
+.info p {
+    margin: 15px 0;
+}
+
+.tags {
+    margin: 0;
+}
+
+.content {
+    width: 100%;
+}
+
+.contentWrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.maincontent p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    ;
+}
+
+.maincontent h1 {
+    margin-top: 50pxpx;
+}
+
+.maincontent img {
+    width: 60%;
+    height: 30%;
+}
+
+.tag p {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 10%);
+    border-radius: 100px;
+    /* padding anh hưởng tới size của cục đó */
+    padding: 10px;
+}
+
+.relatedChild {
+    margin-top: 30px;
+}
+
+.related_left img {
+    width: 35%;
+    height: 40%;
+    float: left;
+    margin-left: 0;
+}
+
+.related_right {
+    text-decoration: none;
+}
