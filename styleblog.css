@@ -16,22 +16,14 @@ nav {
     float: right;
 }
 
-.search_box {
-    display: inline-block;
-    background-color: rgba(161, 161, 161, 0.9);
-    border-radius: 10px;
-    padding-left: 200%;
-    padding-bottom: 10%;
-    padding-top: 10%;
-}
-
 .sendalogo {
     text-align: center;
-    top: 20%;
+    margin-top: 0;
+    padding: 0;
 }
 
-.logo_right a {
-    text-decoration: none;
+.logo_right textarea {
+    background: rgb(128, 128, 128, 60%);
 }
 
 html {
